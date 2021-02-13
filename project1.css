@@ -38,17 +38,40 @@ nav.ul   {
 
 #content ul{
   float: left;
-  width: 14vw;
+  width: 17vw;
   position: absolute;
   bottom: -11.6vw;
   height: 100%;
   background-color: rgb(238, 238, 238);
   border-style: solid;
   border-color: gray;
+  list-style-type: none;
+  margin: 1;
+  top: 9.8vw;
+  padding: 0;
+
+
 }
 
 #content a{
   color: darkblue;
+}
+
+#content li a{
+  display: block;
+  color: #000;
+  padding: 9px 16px;
+  text-decoration: none;
+}
+
+#content li{
+
+}
+
+#content li a:hover{
+  background-color: #555;
+  color: white;
+  text-decoration: none;
 }
 
 #main p{
