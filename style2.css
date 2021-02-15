@@ -1,0 +1,111 @@
+/* -------- GLOBAL VARIABLES --------- */
+html,
+body {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  width: 100vw;
+  height:100vh;
+}
+
+body {
+  /* can change this later */
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.2rem;
+  line-height: 1.7rem;
+  
+}
+
+a {
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
+
+/* -------- NAVIGATION --------- */
+
+nav {
+  display: flex;
+  background-color: rgb(238, 238, 238);
+  padding: 25px;
+ 
+  
+}
+
+nav li {
+  list-style: none;
+  padding: 0 10px;
+}
+/* top-nav */
+.top-nav {
+  justify-content: space-between;
+  position: -webkit-sticky;
+position: sticky;
+top:0;
+z-index: 1;
+max-width:100vw;
+}
+
+.top-nav ul,
+.top-nav h1 {
+  padding: 0;
+  margin: 0;
+}
+.top-nav li {
+  display: inline-block;
+}
+
+.sidebar {
+  line-height: 1.8rem;
+  width: 20vw;
+  padding: 0;
+  position: absolute;
+  left: 0;
+  height: 100vh;
+}
+
+
+/* -------- MAIN --------- */
+
+main {
+  /*width: 70vw; */
+  margin-left: 20vw;
+  padding: 3rem;
+  height: 80vh;
+  position: absolute;
+  overflow-y: scroll;
+}
+
+article {
+    padding-bottom: 50px;
+}
+/* -------- FOOTER --------- */
+
+footer {
+  display: inline-flex;
+  width: 100vw;
+  background-color: rgb(238, 238, 238);
+  bottom: 0;
+  position: absolute;
+  padding: 20px 0;
+  justify-content: space-evenly;
+  align-items: baseline;
+}
+
+footer a {
+  padding: .5rem 1rem;
+  border-radius: 5px;
+  background-color: rgb(255, 255, 255);
+  color: black;
+}
+
+footer a:hover {
+     background-color: rgb(190, 190, 190);
+     text-decoration: none;
+}
+
+footer p {
+  margin: 0;
+}
