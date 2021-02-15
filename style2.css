@@ -30,8 +30,6 @@ nav {
   display: flex;
   background-color: rgb(238, 238, 238);
   padding: 25px;
- 
-  
 }
 
 nav li {
@@ -66,7 +64,6 @@ max-width:100vw;
   height: 100vh;
 }
 
-
 /* -------- MAIN --------- */
 
 main {
@@ -74,7 +71,8 @@ main {
   margin-left: 20vw;
   padding: 3rem;
   height: 80vh;
-  position: absolute;
+
+  
   overflow-y: scroll;
 }
 
